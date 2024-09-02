@@ -149,7 +149,6 @@ img{
 .btn{
     font-weight: 500;
     font-size: 14px;
-    text-transform: uppercase;
     border-radius: 0;
     padding: 10px 24px;
 }
@@ -329,3 +328,6 @@ background-size: cover;
 
 /* FOOTER */
 
+#footer{
+    background-color: rgba(0, 0, 0, 0.575);
+}
