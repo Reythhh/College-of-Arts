@@ -43,7 +43,12 @@
         margin-bottom: 1.5rem;
     }
 
-
+    .service {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        min-height: 400px; /* Adjust as needed */
+    }
 
 
 
@@ -321,3 +326,6 @@ background-size: cover;
     opacity: 1;
     bottom: 24px;
 }
+
+/* FOOTER */
+
