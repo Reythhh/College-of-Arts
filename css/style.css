@@ -43,7 +43,12 @@
         margin-bottom: 1.5rem;
     }
 
-
+    .service {
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        min-height: 400px; /* Adjust as needed */
+    }
 
 
 
@@ -144,7 +149,6 @@ img{
 .btn{
     font-weight: 500;
     font-size: 14px;
-    text-transform: uppercase;
     border-radius: 0;
     padding: 10px 24px;
 }
@@ -322,3 +326,10 @@ background-size: cover;
     bottom: 24px;
 }
 
+
+
+/* FOOTER */
+
+#footer{
+    background-color: rgba(0, 0, 0, 0.575);
+}
