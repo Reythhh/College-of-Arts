@@ -17,7 +17,7 @@
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
-          height: 100vh; /* Full viewport height */
+          height: 75vh; /* Full viewport height */
           color: white; /* Text color for better visibility */
           display: flex;
           align-items: center;
@@ -27,6 +27,46 @@
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-clear fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand mb-2" href="index.html" style="width: 60px; height: 60px">
+          <img src="/assets/images/coa.png" alt="College of arts logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link d-flex flex-column align-items-start me-3" href="index.html">
+                <span >Home</span>
+                <small class="text-primary">Te whare</small>
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link d-flex flex-column align-items-start me-3" href="Courses.html">
+                <span >Courses</span>
+                <small class="text-primary">Ngā akoranga</small>
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link active d-flex flex-column align-items-start me-4" href="ContactUS.html">
+                <span >Contact Us</span>
+                <small class="text-primary">Karere mai</small>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline text-primary" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
   <header> 
     <nav class="navbar navbar-expand-lg bg-clear fixed-top">
         <div class="container">
