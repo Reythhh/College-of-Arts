@@ -12,9 +12,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
+<style>
+  .search{
+    background-color: #212529;
+    color: white;
+  }
+
+
+</style>
+
 <body>
 <header> 
-    <nav class="navbar navbar-expand-lg bg-clear fixed-top">
+    <nav class="navbar navbar-expand-lg bg-clear fixed-top" data-bs-theme="dark">
         <div class="container">
             <a class="navbar-brand" href="index.html" style="width: 60px;height: 60px;"><img src="/assets/images/coa.png" alt="College of arts logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,19 +39,19 @@
                 </li>
                 <li class="nav-item me-3">
                   <a class="nav-link active d-flex flex-column align-items-start me-3" href="Courses.html">
-                    <span >Courses</span>
+                    <span class="text-white">Courses</span>
                     <small class="text-primary">Ngā akoranga</small>
                   </a>
                 </li>
                 <li class="nav-item me-3">
                   <a class="nav-link d-flex flex-column align-items-start me-3" href="ContactUS.html">
-                    <span >Contact Us</span>
+                    <span class="">Contact Us</span>
                     <small class="text-primary">Karere mai</small>
                   </a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+                <input class="form-control search" type="search" placeholder="Search" aria-label="Search" />
                 <button class="btn btn-outline text-primary" type="submit">
                   Search
                 </button>
@@ -50,12 +59,12 @@
             </div>
           </div>
         </nav>
-      </header>  
+      </header>
 
 
 <main>
     <div class="container-fluid">
-        <div class="hero-image py-5" style="background-image: url('/assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp');background-position: center; background-repeat: no-repeat; background-size: cover; height: auto;width: 100%;">
+      <div class="hero-image py-5" style="background-image: url('/assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp');background-position: center; background-repeat: no-repeat; background-size: cover; height: auto;width: 100%;">
             <h1 class="display-5 fw-bold text-white p-2" style="margin-top: 150px;">Courses</h1>
             <p class="col-md-8 fs-4 text-white p-2">
                 Nga Akoranga
@@ -64,7 +73,7 @@
                 Values
             </button>
         </div>
-    </div> 
+      </div>
     </div>
 
     <section id="courses" class="section-padding border-top" aria-label="Course Cards">
