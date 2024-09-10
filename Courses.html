@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="/css/bootstrap-minty.min (1).css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      /* Custom styles for the background image */
+      .backImage{
+          
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          height: 100vh; /* Full viewport height */
+          color: white; /* Text color for better visibility */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+  </style>
 </head>
 
 <style>
@@ -23,7 +38,7 @@
 
 <body>
 <header> 
-    <nav class="navbar navbar-expand-lg bg-clear fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-clear fixed-top">
         <div class="container">
             <a class="navbar-brand" href="index.html" style="width: 60px;height: 60px;"><img src="/assets/images/coa.png" alt="College of arts logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,19 +54,19 @@
                 </li>
                 <li class="nav-item me-3">
                   <a class="nav-link active d-flex flex-column align-items-start me-3" href="Courses.html">
-                    <span class="text-white">Courses</span>
+                    <span >Courses</span>
                     <small class="text-primary">Ngā akoranga</small>
                   </a>
                 </li>
                 <li class="nav-item me-3">
                   <a class="nav-link d-flex flex-column align-items-start me-3" href="ContactUS.html">
-                    <span class="">Contact Us</span>
+                    <span >Contact Us</span>
                     <small class="text-primary">Karere mai</small>
                   </a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
-                <input class="form-control search" type="search" placeholder="Search" aria-label="Search" />
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
                 <button class="btn btn-outline text-primary" type="submit">
                   Search
                 </button>
@@ -59,21 +74,21 @@
             </div>
           </div>
         </nav>
-      </header>
+      </header>  
 
 
 <main>
     <div class="container-fluid">
-      <div class="hero-image py-5" style="background-image: url('/assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp');background-position: center; background-repeat: no-repeat; background-size: cover; height: auto;width: 100%;">
+        <div class="hero-image py-5" style="background-image: url('/assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp');background-position: center; background-repeat: no-repeat; background-size: cover; height: auto;width: 100%;">
             <h1 class="display-5 fw-bold text-white p-2" style="margin-top: 150px;">Courses</h1>
             <p class="col-md-8 fs-4 text-white p-2">
                 Nga Akoranga
             </p>
-            <button class="btn btn-primary btn-lg p-5" href="index.html" type="button">
-                Values
+            <button class="btn btn-primary btn-lg" href="index.html" type="button">
+              Values
             </button>
         </div>
-      </div>
+    </div> 
     </div>
 
     <section id="courses" class="section-padding border-top" aria-label="Course Cards">
