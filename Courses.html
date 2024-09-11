@@ -27,68 +27,70 @@
   </style>
 </head>
 
-<style>
-  .search{
-    background-color: #212529;
-    color: white;
-  }
 
 
 </style>
 
 <body>
-<header> 
-    <nav class="navbar navbar-expand-lg bg-clear fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html" style="width: 60px;height: 60px;"><img src="/assets/images/coa.png" alt="College of arts logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-clear fixed-top" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand mb-2" href="index.html" style="width: 60px; height: 60px">
+          <img src="/assets/images/coa.png" alt="College of arts logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto"> 
+            <li class="nav-item">
+              <a class="nav-link d-flex flex-column align-items-start me-4" href="index.html">
+                <span >Home</span>
+                <small class="text-primary">Te whare</small>
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link active d-flex flex-column align-items-start me-3" href="Courses.html">
+                <span >Courses</span>
+                <small class="text-primary">Ngā akoranga</small>
+              </a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link d-flex flex-column align-items-start me-3" href="ContactUS.html">
+                <span >Contact Us</span>
+                <small class="text-primary">Karere mai</small>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline text-primary" type="submit">
+              Search
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                  <a class="nav-link d-flex flex-column align-items-start me-4" href="index.html">
-                    <span >Home</span>
-                    <small class="text-primary">Te whare</small>
-                  </a>
-                </li>
-                <li class="nav-item me-3">
-                  <a class="nav-link active d-flex flex-column align-items-start me-3" href="Courses.html">
-                    <span >Courses</span>
-                    <small class="text-primary">Ngā akoranga</small>
-                  </a>
-                </li>
-                <li class="nav-item me-3">
-                  <a class="nav-link d-flex flex-column align-items-start me-3" href="ContactUS.html">
-                    <span >Contact Us</span>
-                    <small class="text-primary">Karere mai</small>
-                  </a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search" />
-                <button class="btn btn-outline text-primary" type="submit">
-                  Search
-                </button>
-              </form>
-            </div>
-          </div>
-        </nav>
-      </header>  
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 
 <main>
-    <div class="container-fluid">
-        <div class="hero-image py-5" style="background-image: url('/assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp');background-position: center; background-repeat: no-repeat; background-size: cover; height: auto;width: 100%;">
-            <h1 class="display-5 fw-bold text-white p-2" style="margin-top: 150px;">Courses</h1>
-            <p class="col-md-8 fs-4 text-white p-2">
-                Nga Akoranga
-            </p>
-            <button class="btn btn-primary btn-lg" href="index.html" type="button">
+    
+        <div class="backImage" style="background-image: url(./assets/images/wooden-maori-hei-tiki-hand-carved-paua-shell-eyes-new-zealand-taonga-closeup-dark-background-native-hardwood-circle-259864251.webp);">
+
+          <div class="container-fluid">
+            <h1 class="display-5 fw-bold text-white" style="margin-top: 150px; font-size: 100PX;">
+              Courses
+            </h1>
+            <h1 class="col-md-8  text-white" style="font-size: 50px;">
+              Nga Akoranga
+            </h1>
+            <button class="btn btn-primary btn-lg" href="index.html" type="button" style="font-size: 30px;">
               Values
             </button>
-        </div>
-    </div> 
+          </div>
+        
+    
     </div>
 
     <section id="courses" class="section-padding border-top" aria-label="Course Cards">
